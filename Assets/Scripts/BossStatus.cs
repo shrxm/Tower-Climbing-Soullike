@@ -17,16 +17,5 @@ public class BossStatus : MonoBehaviour
         capsuleCollider = GetComponent<CapsuleCollider>();
 
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
