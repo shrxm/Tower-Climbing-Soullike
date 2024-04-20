@@ -1,0 +1,2 @@
+Assets/** filter=lfs diff=lfs merge=lfs -text
+Assets/ARPGPack/* filter=lfs diff=lfs merge=lfs -text
