@@ -1,35 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MouseMovement : MonoBehaviour
-{
-    public float sesitivity = 500f;
-    public float rotationX;
-    public float rotationY;
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        float mouseMoveX = Input.GetAxis("Mouse X");
-        float mouseMoveY = Input.GetAxis("Mouse Y");
-        rotationY += mouseMoveX * sesitivity * Time.deltaTime;
-        rotationX += mouseMoveY * sesitivity * Time.deltaTime;
-
-        if (rotationX > 35f)
-        {
-            rotationX = 35f;
-        }
-
-        if (rotationX < -30f)
-        {
-            rotationX = -30f;
-        }
-        transform.eulerAngles = new Vector3(-rotationX, rotationY, 0);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a1f75437f65bb5ff4444f323dbbe90f41e4f9128f09ac45e9dc36daa65229f0
+size 791
