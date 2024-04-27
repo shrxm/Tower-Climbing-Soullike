@@ -1,27 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public enum BTNType
-{
-    New,
-    Continue,
-    Option,
-    Sound,
-    back,
-    Quit
-}
-public class mainui : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f2148f80da3c8e8a338b53ffc16e1d6322dbd8f9e96eec94adfa9264018ed86
+size 379
