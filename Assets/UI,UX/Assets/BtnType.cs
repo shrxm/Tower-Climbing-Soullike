@@ -1,32 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BtnType : MonoBehaviour
-{
-    public BTNType currentType;
-    public void OnBtnClick()
-    {
-        switch (currentType)
-        {
-            case BTNType.New:
-                Debug.Log("새게임");
-                break;
-            case BTNType.Continue:
-                Debug.Log("이어하기");
-                break;
-            case BTNType.Option:
-                Debug.Log("옵션");
-                break;
-            case BTNType.Sound:
-                Debug.Log("사운드");
-                break;
-            case BTNType.back:
-                Debug.Log("돌아가기");
-                break;
-            case BTNType.Quit:
-                Debug.Log("나가기");
-                break;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c46fcbe93d6e54783d6b74a093aa85175121f5de7ea27a34d6aee05c31fe775
+size 797
