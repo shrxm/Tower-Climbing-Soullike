@@ -6,15 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UI,UX/Assets/Scene/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 9115db7185b60e04bb12589804d117f9
   - enabled: 1
-    path: Assets/UI,UX/Assets/Scene/LoadingScene.unity
+    path: Assets/Scenes/LoadingScene.unity
     guid: f594431fddf42f54889b5fcae3cafd45
   - enabled: 1
-    path: Assets/UI,UX/Assets/Scene/OptionScene.unity
+    path: Assets/Scenes/BossLoadingScene.unity
+    guid: 8fe1b0d8e899d8c45b71f8154e302a36
+  - enabled: 1
+    path: Assets/Scenes/OptionScene.unity
     guid: d18c9144d10f9ed49a6919bc1020652c
   - enabled: 1
-    path: Assets/UI,UX/Assets/Scene/IngameTest.unity
-    guid: b63dc30225a13344eba2f980976a9501
+    path: Assets/Scenes/robby.unity
+    guid: eb80ea1e3641e4f4d916691eaf85c5f8
+  - enabled: 1
+    path: Assets/Scenes/boss (desert).unity
+    guid: 51149bb03730e9b41a28f127270bdadb
+  - enabled: 1
+    path: Assets/Scenes/boss (hall).unity
+    guid: 0bd227ff66302454880f8a625f4c4d42
+  - enabled: 1
+    path: Assets/Scenes/boss (sewer).unity
+    guid: ffec001f5a465124db0c052c76c99964
+  - enabled: 1
+    path: Assets/Scenes/boss (Snow).unity
+    guid: a82b21cbaadc1f34bb640210a5575859
+  - enabled: 1
+    path: Assets/Scenes/boss (volcano).unity
+    guid: 7e8d61a492873fb4daa4306a9e6124f5
   m_configObjects: {}
