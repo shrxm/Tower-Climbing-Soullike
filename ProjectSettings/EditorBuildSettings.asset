@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/boss (volcano).unity
     guid: 7e8d61a492873fb4daa4306a9e6124f5
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: b89d011f0021e144987ba1cc2b7a24ee
   m_configObjects: {}
